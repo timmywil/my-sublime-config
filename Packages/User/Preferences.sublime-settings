@@ -1,0 +1,55 @@
+{
+	"color_scheme": "Packages/User/Timmy.tmTheme",
+	"detect_indentation": false,
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"font_size": 14.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+	],
+	"jshint_options":
+	{
+		"boss": true,
+		"browser": true,
+		"eqeqeq": true,
+		"eqnull": true,
+		"es5": true,
+		"evil": false,
+		"laxbreak": false,
+		"maxerr": 100,
+		"newcap": true,
+		"noarg": true,
+		"node": true,
+		"noempty": true,
+		"onevar": true,
+		"plusplus": false,
+		"predef":
+		[
+			"define",
+			"require",
+			"jQuery",
+			"YAHOO",
+			"_gaq",
+			"Modernizr",
+			"test",
+			"ok",
+			"equal",
+			"start",
+			"stop",
+			"expect",
+			"strictEqual",
+			"deepEqual"
+		],
+		"regexp": false,
+		"smarttabs": true,
+		"strict": true,
+		"undef": true,
+		"white": false
+	},
+	"minimap": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"vintage_start_in_command_mode": true,
+	"word_wrap": false
+}

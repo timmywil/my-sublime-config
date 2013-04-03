@@ -1,0 +1,10 @@
+[
+	{
+		"args":
+		{
+			"by": "pages",
+			"forward": true
+		},
+		"command": "move"
+	}
+]

@@ -1,0 +1,16 @@
+{
+	"breaks":
+	{
+		"/Users/timmy/Sites/quickcue-bucket/website/website/public/js/main.js":
+		{
+		},
+		"/Users/timmy/Sites/quickcue-bucket/website/website/public/tables/scripts/modules/setup/models.js":
+		{
+		}
+	},
+	"chrome_path":
+	{
+		"osx": "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary"
+	},
+	"open_stack_current_in_new_tab": true
+}

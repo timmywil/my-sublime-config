@@ -1,0 +1,23 @@
+[
+	{
+		"args":
+		{
+			"file": "Packages/User/enterWithTab.sublime-macro"
+		},
+		"command": "run_macro_file"
+	},
+	{
+		"args":
+		{
+			"to": "hardbol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"file": "Packages/Default/Delete to Hard EOL.sublime-macro"
+		},
+		"command": "run_macro_file"
+	}
+]

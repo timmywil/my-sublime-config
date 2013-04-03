@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @license $1
+ * Copyright (c) 2013 ${2:timmy willison}
+ */
+$0
+]]></content>
+	<tabTrigger>license</tabTrigger>
+</snippet>

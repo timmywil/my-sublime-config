@@ -1,0 +1,44 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Timmy.tmTheme",
+	"font_size": 13.0,
+	"highlight_line": true,
+	"jshint_options": {
+		"predef": [
+			"define",
+			"require",
+			"jQuery",
+			"YAHOO",
+			"_gaq",
+			"Modernizr",
+			// For QUnit
+			"test",
+			"ok",
+			"equal",
+			"start",
+			"stop",
+			"expect",
+			"strictEqual",
+			"deepEqual"
+		],
+		"node": true,
+		"es5": true,
+		"browser": true,
+		"boss": true,
+		"eqeqeq": true,
+		"eqnull": true,
+		"evil": false,
+		"laxbreak": false,
+		"maxerr": 100,
+		"newcap": true,
+		"noarg": true,
+		"noempty": true,
+		"onevar": true,
+		"plusplus": false,
+		"regexp": false,
+		"strict": true,
+		"white": false,
+		"undef": true
+	},
+	"word_wrap": false,
+	"draw_white_space": "all"
+}
