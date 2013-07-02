@@ -2,8 +2,11 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
-		"jQuery",
-		"Package Control"
+		"Jade",
+		"LESS",
+		"Package Control",
+		"SublimeLinter",
+		"TrailingSpaces"
 	],
 	"repositories":
 	[

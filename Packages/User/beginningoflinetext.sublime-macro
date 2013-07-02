@@ -9,7 +9,8 @@
 	{
 		"args":
 		{
-			"by": "wordends",
+			"by": "subword_ends",
+			"extend": false,
 			"forward": true
 		},
 		"command": "move"
@@ -17,7 +18,8 @@
 	{
 		"args":
 		{
-			"by": "words",
+			"by": "subwords",
+			"extend": false,
 			"forward": false
 		},
 		"command": "move"
