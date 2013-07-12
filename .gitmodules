@@ -4,3 +4,6 @@
 [submodule "Packages/Sublime-HTMLPrettify"]
 	path = Packages/Sublime-HTMLPrettify
 	url = https://github.com/victorporof/Sublime-HTMLPrettify.git
+[submodule "Packages/sublimetext-markdown-preview"]
+	path = Packages/sublimetext-markdown-preview
+	url = https://github.com/revolunet/sublimetext-markdown-preview.git

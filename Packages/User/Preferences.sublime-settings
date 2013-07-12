@@ -14,14 +14,16 @@
 		"*.swf",
 		"*.jar",
 		"*.zip",
-		"node_modules/*",
+		"**/node_modules/*",
+		"**/bower_components/*",
+		"**/bower/*",
 		".DS_Store"
 	],
 	"color_scheme": "Packages/User/Timmy.tmTheme",
 	"detect_indentation": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
-	"font_size": 14.0,
+	"font_size": 15.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
