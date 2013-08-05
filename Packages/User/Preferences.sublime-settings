@@ -15,9 +15,8 @@
 		"*.jar",
 		"*.zip",
 		"**/node_modules/*",
-		"**/bower_components/*",
-		"**/bower/*",
-		".DS_Store"
+		"**/build*/*",
+		"**/.DS_Store"
 	],
 	"color_scheme": "Packages/User/Timmy.tmTheme",
 	"detect_indentation": false,

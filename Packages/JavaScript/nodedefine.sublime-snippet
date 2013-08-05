@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 // For node (stripped in browser optimization)
-if ( typeof define !== 'function' ) {
+if (typeof define !== 'function') {
 	var define = require('amdefine')( module );
 }
 $0

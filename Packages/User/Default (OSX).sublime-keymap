@@ -1,7 +1,7 @@
 [
 
 	// { "keys": ["ctrl+."], "command": "insert", "args": {"characters": "<%= %>"} },
-	{ "keys": ["ctrl+shift+."], "command": "insert_snippet", "args": {"contents": "<%=$1 %>$0"} },
+	{ "keys": ["ctrl+shift+."], "command": "insert_snippet", "args": {"contents": "<%=$0 %>"} },
 
 	{ "keys": ["ctrl+shift+-"], "command": "goto_definition" },
 
