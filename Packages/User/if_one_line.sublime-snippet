@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[if ($1) ${0:return};
+]]></content>
+    <tabTrigger>ifo</tabTrigger>
+    <scope>source.js</scope>
+    <description>if one liner</description>
+</snippet>
+
