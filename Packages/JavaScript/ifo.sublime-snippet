@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[if ($1) ${0:return};
+    <content><![CDATA[if ($0) ;
 ]]></content>
     <tabTrigger>ifo</tabTrigger>
     <scope>source.js</scope>

@@ -14,8 +14,7 @@
 		"*.swf",
 		"*.jar",
 		"*.zip",
-		"**/node_modules/*",
-		"**/build*/*",
+		"website/build/*",
 		"**/.DS_Store"
 	],
 	"color_scheme": "Packages/User/Timmy.tmTheme",

@@ -5,9 +5,11 @@
 		"CoffeeScript",
 		"Jade",
 		"LESS",
+		"MoveTab",
 		"Package Control",
 		"SublimeLinter",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"Web Inspector 3"
 	],
 	"repositories":
 	[

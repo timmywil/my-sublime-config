@@ -1,12 +1,13 @@
 <snippet>
 	<content><![CDATA[
-switch($0) {
-	case :
-		break;
-}
+.end(function( err, res ) {
+	if ( err ) return done( err );
+	${0:expect( false ).to.equal( true );}
+	done();
+});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>switch</tabTrigger>
+	<tabTrigger>.end</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 it('$1', function($2) {
-	$0
+	${3:expect( false ).to.equal( true );}
 });
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
