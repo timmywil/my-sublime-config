@@ -123,5 +123,17 @@
 	{ "keys": ["ctrl+f5"], "command": "unbound" },
 
 	{ "keys": ["ctrl+super+s"], "command": "sort_lines", "args": {"case_sensitive": false} },
-	{ "keys": ["ctrl+super+shift+s"], "command": "sort_lines", "args": {"case_sensitive": true} }
+	{ "keys": ["ctrl+super+shift+s"], "command": "sort_lines", "args": {"case_sensitive": true} },
+
+	// MoveTab
+	{
+		"keys": ["super+alt+shift+["],
+		"command": "move_tab",
+		"args": { "position": "-1" }
+	},
+	{
+		"keys": ["super+alt+shift+]"],
+		"command": "move_tab",
+		"args": { "position": "+1" }
+	}
 ]
