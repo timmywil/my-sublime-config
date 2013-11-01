@@ -7,9 +7,9 @@
 		"LESS",
 		"MoveTab",
 		"Package Control",
+		"Pretty JSON",
 		"SublimeLinter",
-		"TrailingSpaces",
-		"Web Inspector 3"
+		"TrailingSpaces"
 	],
 	"repositories":
 	[

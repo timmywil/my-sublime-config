@@ -1,34 +1,29 @@
 {
-	"binary_file_patterns":
-	[
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
-		"*.pdf",
-		"*.swf",
-		"*.jar",
-		"*.zip",
-		"website/build/*",
-		"**/.DS_Store"
-	],
 	"color_scheme": "Packages/User/Timmy.tmTheme",
+	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
-	"font_size": 15.0,
-	"highlight_line": true,
-	"ignored_packages":
+	"ensure_newline_at_eof_on_save": false,
+	"file_exclude_patterns":
 	[
-		"Vintage"
+		".DS_Store",
+		"Desktop.ini",
+		"*.pyc",
+		"._*",
+		"Thumbs.db",
+		".Spotlight-V100",
+		".Trashes"
 	],
-	"jshint_options":
-	{
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules"
+	],
+	"font_size": 15.0,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"jshint_options": {
 		"boss": true,
 		"browser": true,
 		"eqeqeq": true,
@@ -43,32 +38,38 @@
 		"noempty": true,
 		"onevar": true,
 		"plusplus": false,
-		"predef":
-		[
-			"define",
-			"require",
-			"jQuery",
-			"YAHOO",
-			"_gaq",
-			"Modernizr",
-			"test",
-			"ok",
-			"equal",
-			"start",
-			"stop",
-			"expect",
-			"strictEqual",
-			"deepEqual"
-		],
+		"globals": {
+			"define": true,
+			"require": true,
+			"jQuery": true,
+			"YAHOO": true,
+			"_gaq": true,
+			"Modernizr": true,
+			"test": true,
+			"ok": true,
+			"equal": true,
+			"start": true,
+			"stop": true,
+			"expect": true,
+			"strictEqual": true,
+			"deepEqual": true
+		},
 		"regexp": false,
 		"smarttabs": true,
 		"strict": true,
 		"undef": true,
 		"white": false
 	},
-	"minimap": true,
+	"line_padding_bottom": 6,
+	"matchBracketsAngle": true,
+	"remember_open_files": false,
+	"rulers":
+	[
+		"Vintage"
+	],
 	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": false,
 	"vintage_start_in_command_mode": false,
 	"word_wrap": false
 }

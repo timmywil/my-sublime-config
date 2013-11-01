@@ -25,7 +25,9 @@
 	{ "keys": ["shift+ctrl+/"], "command": "redo" },
 
 	// Close all windows
-	{ "keys": ["super+ctrl+W"], "command": "close_all" },
+	{ "keys": ["super+ctrl+w"], "command": "close_all" },
+	// Close other windows
+	{ "keys": ["super+alt+w"], "command": "close_others" },
 
 	// Word count
 	{ "keys": ["ctrl+super+n"], "command": "wordCount" },
