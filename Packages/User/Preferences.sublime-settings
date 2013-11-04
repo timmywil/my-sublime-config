@@ -4,7 +4,7 @@
 	"detect_indentation": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -23,13 +23,31 @@
 	"font_size": 15.0,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
-	"jshint_options": {
+	"jshint_options":
+	{
 		"boss": true,
 		"browser": true,
 		"eqeqeq": true,
 		"eqnull": true,
 		"es5": true,
 		"evil": false,
+		"globals":
+		{
+			"Modernizr": true,
+			"YAHOO": true,
+			"_gaq": true,
+			"deepEqual": true,
+			"define": true,
+			"equal": true,
+			"expect": true,
+			"jQuery": true,
+			"ok": true,
+			"require": true,
+			"start": true,
+			"stop": true,
+			"strictEqual": true,
+			"test": true
+		},
 		"laxbreak": false,
 		"maxerr": 100,
 		"newcap": true,
@@ -38,29 +56,13 @@
 		"noempty": true,
 		"onevar": true,
 		"plusplus": false,
-		"globals": {
-			"define": true,
-			"require": true,
-			"jQuery": true,
-			"YAHOO": true,
-			"_gaq": true,
-			"Modernizr": true,
-			"test": true,
-			"ok": true,
-			"equal": true,
-			"start": true,
-			"stop": true,
-			"expect": true,
-			"strictEqual": true,
-			"deepEqual": true
-		},
 		"regexp": false,
 		"smarttabs": true,
 		"strict": true,
 		"undef": true,
 		"white": false
 	},
-	"line_padding_bottom": 6,
+	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
 	"remember_open_files": false,
 	"rulers":
