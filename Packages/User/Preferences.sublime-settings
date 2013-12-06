@@ -18,11 +18,15 @@
 	"folder_exclude_patterns":
 	[
 		".git",
-		"node_modules"
+		"website/build"
 	],
 	"font_size": 15.0,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"jshint_options":
 	{
 		"boss": true,
@@ -65,10 +69,7 @@
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
 	"remember_open_files": false,
-	"rulers":
-	[
-		"Vintage"
-	],
+	"rulers": [ 72, 80, 100 ],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": false,
