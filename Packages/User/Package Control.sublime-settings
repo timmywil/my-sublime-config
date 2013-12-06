@@ -5,6 +5,7 @@
 		"CoffeeScript",
 		"Jade",
 		"LESS",
+		"lispindent",
 		"MoveTab",
 		"Package Control",
 		"Pretty JSON",
