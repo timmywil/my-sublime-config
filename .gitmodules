@@ -7,3 +7,6 @@
 [submodule "Packages/sublimetext-markdown-preview"]
 	path = Packages/sublimetext-markdown-preview
 	url = https://github.com/revolunet/sublimetext-markdown-preview.git
+[submodule "Packages/GitGutter"]
+	path = Packages/GitGutter
+	url = git://github.com/jisaacks/GitGutter.git

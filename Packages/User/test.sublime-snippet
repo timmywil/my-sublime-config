@@ -1,6 +1,7 @@
 <snippet>
   <content><![CDATA[
-test("$1", $2, function() {
+test('$1', function() {
+	expect(1);
 	$0
 });
 ]]></content>
