@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"CoffeeScript",
+		"Dust.js",
 		"Jade",
 		"LESS",
 		"lispindent",
@@ -10,6 +11,8 @@
 		"Package Control",
 		"Pretty JSON",
 		"SublimeLinter",
+		"SublimeLinter-jscs",
+		"SublimeLinter-jshint",
 		"Syntax Highlighting for Sass",
 		"TrailingSpaces"
 	],

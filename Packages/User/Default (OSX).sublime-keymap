@@ -18,7 +18,7 @@
 	{ "keys": ["alt+shift+]"], "command": "run_macro_file", "args": {"file": "Packages/User/10linesdown.sublime-macro"} },
 	{ "keys": ["alt+shift+,"], "command": "run_macro_file", "args": {"file": "Packages/User/beginningoffile.sublime-macro"} },
 	{ "keys": ["alt+shift+."], "command": "run_macro_file", "args": {"file": "Packages/User/endoffile.sublime-macro"} },
-	{ "keys": ["alt+m"], "command": "run_macro_file", "args": {"file": "Packages/User/beginningoflinetext.sublime-macro"} },
+	{ "keys": ["alt+m"], "command": "move_to", "args": {"to": "bol", "extend": false} },
 
 	// Undo/redo
 	{ "keys": ["ctrl+/"], "command": "undo" },

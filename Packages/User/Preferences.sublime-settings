@@ -1,10 +1,23 @@
 {
-	"color_scheme": "Packages/User/Timmy.tmTheme",
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Timmy (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules",
+		".sass-cache",
+		"website/doc",
+		".build",
+		"website/build",
+		"coverage",
+		"connect/doc",
+		"devperf"
+	],
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -13,13 +26,8 @@
 		"._*",
 		"Thumbs.db",
 		".Spotlight-V100",
-		".Trashes"
-	],
-	"folder_exclude_patterns":
-	[
-		".git",
-		".sass-cache",
-		"website/build"
+		".Trashes",
+		"sauce_connect.log"
 	],
 	"font_size": 15.0,
 	"highlight_modified_tabs": true,
@@ -34,7 +42,6 @@
 		"browser": true,
 		"eqeqeq": true,
 		"eqnull": true,
-		"es5": true,
 		"evil": false,
 		"globals":
 		{
@@ -79,6 +86,6 @@
 	"tab_size": 2,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": false,
-	"vintage_start_in_command_mode": false,
+	"vintage_start_in_command_mode": true,
 	"word_wrap": false
 }

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-	 -moz-box-shadow: ${1:white} ${2:0px} ${3:0px} ${4:5px};
-  -webkit-box-shadow: ${1:white} ${2:0px} ${3:0px} ${4:5px};
-		  box-shadow: ${1:white} ${2:0px} ${3:0px} ${4:5px};
-]]></content>
-	<tabTrigger>box-shadow</tabTrigger>
-	<scope>source.css</scope>
-</snippet>

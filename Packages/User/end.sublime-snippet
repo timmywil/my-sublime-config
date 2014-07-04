@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-end(function( err, res ) {
-	if ( err ) return done( err );
-	${0:expect( false ).to.equal( true );}
+end(function(err, res) {
+	if (err) return done(err);
+	${0:assert(false);}
 	done();
 });
 ]]></content>
