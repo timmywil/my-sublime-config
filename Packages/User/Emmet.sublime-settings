@@ -1,0 +1,4 @@
+{
+	"disabled_keymap_actions": "expand_abbreviation, balance_outward, wrap_as_you_type, rename_tag, reflect_css_value",
+	"disabled_on_single_snippets": "link"
+}

@@ -2,19 +2,35 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"AngularJS",
+		"CoffeeAngular Syntax",
+		"CoffeeCompile",
+		"CoffeeComplete Plus (Autocompletion)",
 		"CoffeeScript",
 		"Dust.js",
+		"EditorConfig",
+		"Emmet",
+		"Git",
+		"Github Tools",
 		"Jade",
+		"Jasmine CoffeeScript",
+		"Jasmine JS",
+		"JavaScriptNext - ES6 Syntax",
 		"LESS",
 		"lispindent",
 		"MoveTab",
+		"Open in Default Application",
 		"Package Control",
+		"Polymer & Web Component Snippets",
 		"Pretty JSON",
+		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"Syntax Highlighting for Sass",
-		"TrailingSpaces"
+		"Theme - Spacegray",
+		"TrailingSpaces",
+		"VimL"
 	],
 	"repositories":
 	[

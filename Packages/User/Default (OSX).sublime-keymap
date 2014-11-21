@@ -24,6 +24,9 @@
 	{ "keys": ["ctrl+/"], "command": "undo" },
 	{ "keys": ["shift+ctrl+/"], "command": "redo" },
 
+	// Paste from history
+	{ "keys": ["shift+super+v"], "command": "paste_from_history" },
+
 	// Close all windows
 	{ "keys": ["super+ctrl+w"], "command": "close_all" },
 	// Close other windows
@@ -118,7 +121,10 @@
 	// },
 
 	// Sublime Web Inspector
-	{"keys": ["super+shift+b"], "command": "swi_breakpoint" },
+	{
+		"keys": ["super+shift+b"],
+		"command": "swi_breakpoint"
+	},
 
 	// Unbind f5
 	{ "keys": ["f5"], "command": "unbound" },
@@ -137,5 +143,20 @@
 		"keys": ["super+alt+shift+]"],
 		"command": "move_tab",
 		"args": { "position": "+1" }
+	},
+
+	// Coffee compile
+	{
+		"keys": ["ctrl+x", "ctrl+p"],
+		"command": "coffee_compile"
+	},
+
+	// Emmet
+	{
+		"keys": ["super+e"],
+		"args": {
+			"action": "expand_abbreviation"
+		},
+		"command": "run_emmet_action"
 	}
 ]

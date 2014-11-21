@@ -1,23 +1,31 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".@",
+			"selector": "source.coffee, source.litcoffee, source.coffee.md"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		}
+	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Timmy (SL).tmTheme",
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 8,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
+	"disabled_keymap_actions": "all",
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
-	"folder_exclude_patterns":
-	[
-		".git",
-		"node_modules",
-		".sass-cache",
-		"website/doc",
-		".build",
-		"website/build",
-		"coverage",
-		"connect/doc",
-		"devperf"
-	],
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -28,6 +36,17 @@
 		".Spotlight-V100",
 		".Trashes",
 		"sauce_connect.log"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".build",
+		"dist",
+		"node_modules",
+		".sass-cache",
+		"/dist",
+		"coverage",
+		"devperf"
 	],
 	"font_size": 15.0,
 	"highlight_modified_tabs": true,
@@ -76,7 +95,6 @@
 	},
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
-	"remember_open_files": false,
 	"rulers":
 	[
 		72,
@@ -84,6 +102,7 @@
 		100
 	],
 	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": false,
 	"vintage_start_in_command_mode": true,
