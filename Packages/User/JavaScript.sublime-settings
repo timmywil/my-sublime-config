@@ -1,3 +1,7 @@
 {
-  "translate_tabs_to_spaces": false
+	"extensions":
+	[
+		"js"
+	],
+	"translate_tabs_to_spaces": false
 }

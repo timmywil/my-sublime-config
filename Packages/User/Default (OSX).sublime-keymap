@@ -153,10 +153,20 @@
 
 	// Emmet
 	{
-		"keys": ["super+e"],
+		"keys": ["alt+e"],
 		"args": {
 			"action": "expand_abbreviation"
 		},
 		"command": "run_emmet_action"
+	// },
+	// {
+	// 	"keys": ["tab"],
+	// 	"command": "expand_abbreviation_by_tab",
+	// 	"context": [{
+	// 		"operand": "source.js",
+	// 		"operator": "equal",
+	// 		"match_all": true,
+	// 		"key": "selector"
+	// 	}]
 	}
 ]

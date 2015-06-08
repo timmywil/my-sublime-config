@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+end((err, res) => {
+  if (err) return done(err)
+  $0
+  done()
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>end</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

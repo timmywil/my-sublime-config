@@ -1,15 +1,20 @@
 {
 	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"AngularJS",
+		"Babel",
 		"CoffeeAngular Syntax",
 		"CoffeeCompile",
 		"CoffeeComplete Plus (Autocompletion)",
 		"CoffeeScript",
-		"Dust.js",
+		"DustBuster",
 		"EditorConfig",
 		"Emmet",
+		"FindKeyConflicts",
 		"Git",
 		"Github Tools",
 		"Jade",
@@ -19,15 +24,19 @@
 		"LESS",
 		"lispindent",
 		"MoveTab",
+		"Oceanic Next Color Scheme",
 		"Open in Default Application",
 		"Package Control",
 		"Polymer & Web Component Snippets",
 		"Pretty JSON",
+		"ReactJS",
 		"Sass",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"Syntax Highlighting for Sass",
+		"Theme - Asphalt",
 		"Theme - Spacegray",
 		"TrailingSpaces",
 		"VimL"

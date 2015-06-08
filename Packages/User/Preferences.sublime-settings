@@ -19,7 +19,7 @@
 	"caret_extra_top": 0,
 	"caret_extra_width": 8,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"disabled_keymap_actions": "all",
@@ -40,12 +40,10 @@
 	"folder_exclude_patterns":
 	[
 		".git",
-		".build",
-		"dist",
 		"node_modules",
+		".tmp",
+		".build",
 		".sass-cache",
-		"/dist",
-		"coverage",
 		"devperf"
 	],
 	"font_size": 15.0,
@@ -53,7 +51,8 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"GitGutter"
 	],
 	"jshint_options":
 	{
@@ -61,6 +60,7 @@
 		"browser": true,
 		"eqeqeq": true,
 		"eqnull": true,
+		"esnext": true,
 		"evil": false,
 		"globals":
 		{
